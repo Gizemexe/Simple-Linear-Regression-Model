@@ -53,6 +53,6 @@ These rows standardize the Xtrain and Xtest data using the formula
 - It helps prevent features of different scales (e.g. one with a price in the hundreds of thousands, another with a small square meter) from negatively affecting model performance.
 <p>If you don't apply standardization, large-scale features can take on more weight and the model can ignore the impact of small-scale features.</p>
 
-</h2> Conclusion</h2>
+<h2> Conclusion</h2>
 <p>The linear regression model developed in this study was able to predict house prices with reasonable accuracy based on floor area data. The RMSE values of the trained model are reasonable, and the addition of different features or the use of more complex models to improve the prediction accuracy can be evaluated in future studies.</p>
 
