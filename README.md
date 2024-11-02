@@ -24,14 +24,14 @@ A low RMSE value indicates that the model predicts close to the actual values. A
 **RMSE (Root Mean Squared Error)** 
  is an error metric that measures the difference between predicted values and actual values.
 RMSE is commonly used to evaluate the predictive performance of a model because:
-     - It is more sensitive to large errors: Since it sums errors squared, large errors are penalized more.
-     - It prevents positive and negative errors from canceling each other out: Since errors are squared, positive and negative deviations do not cancel each other out.
+- It is more sensitive to large errors: Since it sums errors squared, large errors are penalized more.
+- It prevents positive and negative errors from canceling each other out: Since errors are squared, positive and negative deviations do not cancel each other out.
 
 ![image](https://github.com/user-attachments/assets/2b034301-19e8-4b04-8b86-68b8f54735b0)
 
-𝑦𝑖:  Actual values
-^𝑦𝑖: Values predicted by the model
-𝑛: Number of samples
+<p>𝑦𝑖:  Actual values</p>
+<p>^𝑦𝑖: Values predicted by the model</p>
+<p>𝑛: Number of samples</p>
 
 **Actual vs. Predicted Prices Graph**
 <p>The graph below compares the prices predicted by the model (linear solution) and the actual prices (training and test data).</p>
@@ -43,8 +43,8 @@ These rows standardize the Xtrain and Xtest data using the formula
 
 ![image](https://github.com/user-attachments/assets/853f5f94-0ecc-42ee-9b4e-3edd7269a5e9)
 
-mean: The mean value of the features of the training data (train set).
-std: The standard deviation of the features of the training data.
+<p>mean: The mean value of the features of the training data (train set).</p>
+<p>std: The standard deviation of the features of the training data.</p>
 
 **Standardization**, in particular:
 
