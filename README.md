@@ -16,6 +16,7 @@
 
 <h2> Model Performance</h2>
 <p>The RMSE metric is used to evaluate the performance of the model. The RMSE value in training and test sets are as follows:</p>
+
 ![Adsız](https://github.com/user-attachments/assets/f0a8a230-f3bc-4fd5-a4ea-8c72ed547f64)
 
 A low RMSE value indicates that the model predicts close to the actual values. And If the training and test RMSE values are close to each other, your model performs well overall.
